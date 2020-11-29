@@ -1,0 +1,165 @@
+		html { 
+		background: url(../img/about-bg.jpg) 
+		no-repeat center; 
+		background-size: cover;
+		transition: 1s;
+		}
+		html.style3 { 
+		background: url(../img/about-bg.jpg) 
+		no-repeat center fixed; 
+		background-size: cover;
+		transition: 1s;
+		}
+		html.style2 { 
+		background: url(../img/about-bg.jpg) 
+		no-repeat center fixed; 
+		background-size: cover;
+		}
+		body {
+		font-family: "Roboto";
+		font-size: 13px;
+		font-color: white;
+		}
+		ul {
+		no-repeat center fixed; 
+		margin: 0px 0px;
+		padding: 0px 0px;
+		list-style-type: none;
+		overflow: hidden;
+		background-color: #333;
+		}
+		ul.style2 {
+		no-repeat center fixed; 
+		margin: 0px 0px;
+		padding: 0px 0px;
+		list-style-type: none;
+		overflow: hidden;
+		background-color: #333;
+		transition: 1s;
+		}
+		li {
+		float: left;
+		
+		}
+		li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px 35px;
+		text-decoration: none;
+		}
+		li a:hover {
+		background-color: #111;
+		transition: 1s;
+		}
+		li.style1 {
+		padding: 25px 300px;
+		float: left;
+		display: block;
+		color: white;
+		text-decoration: none;
+		background-image:url("../img/necra-banner.png");
+		background-size: 300px 50px;
+		background-repeat:no-repeat;
+		background-position:top left;
+		}
+		li.style2 {
+		padding: 15px -25px;
+		float: left;
+		display: block;
+		color: white;
+		background-color: #333;
+		}
+		.active {
+		background-color: #006342;
+		
+		}
+		h1.style1{
+		font-family: "Roboto";
+		font-size: 12px;
+		font-weight: lighter;
+		margin: 5px 125px;
+		}
+		h1.style2{
+		font-family: "Roboto";
+		font-size: 23px;
+		margin: -5px 125px;
+		}
+		h1.style3{
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: lighter;
+		margin: 50px 175px;
+		}
+		p.style1{
+		font-family: "Roboto";
+		font-size: 22px;
+		margin: -50px 175px;
+		font-weight: bold;
+		font-style: italic;
+		}
+		p.style2{
+		font-family: "Roboto";
+		font-size: 15px;
+		margin: 50px 125px;
+		}
+		.footer {
+		left: 0;
+		bottom: 100%;
+		width: 100%;
+		background-color: #333;
+		color: white;
+		text-align: center;
+		font-size: 8px;
+		padding: 1px 0px;
+		}
+		td.style1 {
+		padding-top: 1cm;
+		padding-right: 2cm;
+		padding-bottom: 1cm;
+		padding-left: 2cm ;
+		background-color : #F4F4F4;
+		}
+		table, th, td {
+		border: 1px;
+		
+		}
+		td {
+		padding-top: 10px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+		padding-left: 30px ;
+		background-color : #D8D8D8;
+		text-align: left;
+		}
+		td.style2 {
+		padding-top: 10px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+		padding-left: 30px ;
+		background-color : #333;
+		text-align: left;
+		color: white;
+		}
+		div.gallery {
+		margin: 50px 125px;
+		border: 0px solid #fff;
+		background-color : #D8D8D8;
+		width: 800px;
+		
+		}
+
+		div.gallery:hover {
+		border: 1px solid #777;
+		}
+
+		div.gallery img {
+		width: 100%;
+		height: auto;
+		}
+
+		div.desc {
+		padding: 15px;
+		text-align: center;
+		}
+	
