@@ -15,8 +15,9 @@
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "739c9c6a7b6c4ffabdaabb156b9b0893", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: {portfolio-mini.pdf"}},
-		}, {embedMode: "IN_LINE", showDownloadPDF: false, showPrintPDF: false});
+			content: { location: { localFile: { name: "portfolio-mini.pdf" } } },
+        metaData: { fileName: "portfolio-mini.pdf" }
+		}, {embedMode: "IN_LINE", showDownloadPDF: false, showPrintPDF: false, });
 	});
 </script>
 <!-- partial -->
