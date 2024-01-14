@@ -1,0 +1,11 @@
+#bottom-text {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 40px;
+    font-size:24px;
+    color: rgb(54, 54, 54);
+    font-family: 'Roboto', sans-serif;
+}
